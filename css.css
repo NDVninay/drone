@@ -1,0 +1,46 @@
+body {
+  text-align: center;
+  background-image: url(/JavaScript/class/Test/img/sasa.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 2880px 1800px;
+}
+form {
+  border: 3px solid rgb(240, 5, 5);
+  box-shadow: 5px 5px 5px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: red;
+}
+
+table {
+  margin: 50px auto;
+}
+
+table,
+th,
+td {
+  border: 1px solid whitesmoke;
+  border-collapse: collapse;
+  padding: 10px;
+}
+thead {
+  color: red;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(128, 128, 128, 0.9);
+}
+tr:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+h1 {
+  color: red;
+}
+#data {
+  color: red;
+}
